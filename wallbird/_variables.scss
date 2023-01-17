@@ -8,8 +8,28 @@ $info: #f6c31c;
 $colors: (
     "primary": $primary,
     "secondary": $secondary,
-    "error": $error
+    "error": $error,
+    "info": $info,
+    "blue": #1919e6,
+    "red": #e61919,
+    "yellow": #e6e619,
+    "green": #19e635,
+    "orange": #ffa600,
+    "purple": #9900ff,
+    "gray": #808080,
+    "black": black,
+    "white": white,
 );
+
+.test-btn {
+    background-color: map-get($colors, "purple");
+}
+
+// @debug map-get($colors, "purple");
+// @debug map-has-key($colors, "secondary");
+// @debug map-has-key($colors, "tertiary");
+// @debug map-remove($colors, "primary");
+// @debug map-merge($colors, ("pink": #ffc0cb));
 
 // spacing
 $base-padding: 0.75rem;
