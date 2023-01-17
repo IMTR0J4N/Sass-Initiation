@@ -4,6 +4,13 @@ $secondary: #1ac888;
 $error: #d32752;
 $info: #f6c31c;
 
+// color palette
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "error": $error
+);
+
 // spacing
 $base-padding: 0.75rem;
 $base-margin: 0.75rem;
